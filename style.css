@@ -12,25 +12,27 @@ body {
 
 h1 {
 	text-align: center;
-	color: #f0d78c;
-	background-color: #315b96;
+	color: #e25822;
+	background-color: #f1bc31;
+	font-family: 'Big Shoulders Text', cursive;
 }
 
 h2 {
 	text-align: center;
-	color: #e7f3ee;
-	background-color: #3c9d9b;
+	color: #e7f3ff;
+	background-color: #7c0a02;
+	font-family: 'Big Shoulders Text', cursive;
 }
 
 .main {
 	max-width: 1000px;
 	margin: auto;
-	background-color: #ecfcff;
-	border: 1px solid #badfdb;
+	background-color: #b22222;
+	border: 1px solid #f45905;
 }
 
 .items {
-	background-color: #fff;
+	background-color: #e3b04b;
 	display: flex;
 	width: 100%;
 	max-width: 1000px;
@@ -45,7 +47,7 @@ h2 {
 	max-width: 239px;
 	width: calc(25% - 10px);
 	height: calc(95vw / 4 / 16 * 9);
-	background-color: dodgerblue;
+	background-color: #f45905;
 	margin: 5px;
 	opacity: 0.5;
 
@@ -54,7 +56,7 @@ h2 {
 }
 
 p {
-	color: red;
+	color: blue;
 	padding: 10px 20px;
 	font-weight: bold;/*текст: жирный*/
 	font-size: 28px;
@@ -80,7 +82,7 @@ a.item:hover {
 }
 
 a.item:visited {
-	border-color: #ff8080;
+	border-color: #512c62;
 }
 
 .item_img {
@@ -92,7 +94,7 @@ a.item:visited {
 
 .item_description {
 	display: none;
-	background-color: #bd83ce;
+	background-color: #4dd599;
 	color: white;
 	text-align: center;
 }
